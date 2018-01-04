@@ -9,38 +9,127 @@ body {
 	list-style-type: none;
 	overflow: hidden;
 	background-color: #ffffff;
+	height: 25px;
+	padding: 4px 8px;
 }
 
-.topbar li{
+.topbar li {
 	float: right;
 }
 
-.topbar li a{
+.topbar li a {
 	text-decoration: none;
 	background-color: #ffffff;
 	color: #222;
 	text-align: center;
-	padding: 12px 8px;
+	padding: 8px 2px;
 	font-size: 13px;
 }
 
-.topbar li a:hover{
+.topbar li a:hover {
 	text-decoration: underline;
 }
 
+.topbar #aplicatii img {
+	width: 18px;
+	height: auto;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+.topbar #conect a {
+	background-color: rgb(66, 133, 244);
+	color: white;
+}
+
+.topbar #conect a:hover {
+	cursor: default;
+	text-decoration: none;
+}
+
 .logo {
-	margin-top: 120px;
-	margin-left: 480px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
 }
 
 .form {
-	margin-top: -20px;
+	margin-top: 0;
 	text-align: center;
+	color: rgba(34, 34, 34);
+	font-size: 13px;
+}
+
+.form #searchterm {
+	width: 40%;
+	padding:6px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
 }
 
 .language {
 	margin-top: 20px;
+	margin-bottom: 100px;
 	text-align: center;
+	font-size: 13px;
+	color: rgba(34, 34, 34);
+	line-height: 28px;
+	height: 44px;
+}
+
+#romania {
+	display: block;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,.24);
+	font-size: 14px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: rgba(0,0,0, .14);
+	color: rgba(0,0,0, .54);
+}
+
+.bottom_left {
+	float: left;
+}
+
+.bottom_left a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	font-size: 13px;
+	background-color: rgba(0,0,0, .14);
+	color: rgba(0,0,0, .54);
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,.24);
+	height: 20px;
+}
+
+.bottom_right {
+	float: right;
+}
+
+.bottom_right a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	font-size: 13px;
+	background-color: rgba(0,0,0, .14);
+	color: rgba(0,0,0, .54);
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,.24);
+	height: 20px;
 }
 
 
