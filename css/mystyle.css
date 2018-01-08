@@ -70,7 +70,7 @@ body {
 
 .language {
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 115px;
 	text-align: center;
 	font-size: 13px;
 	color: rgba(34, 34, 34);
@@ -90,6 +90,7 @@ body {
 	padding-top: 10px;
 	background-color: rgba(0,0,0, .14);
 	color: rgba(0,0,0, .54);
+	margin-bottom: 0;
 }
 
 .bottom_left {
@@ -132,6 +133,15 @@ body {
 	height: 20px;
 }
 
-
+.bottom_middle {
+	display: inline-block;
+	background-color: rgba(0,0,0, .14);
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgba(0,0,0,.24);
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 722px;
+}
 
 
