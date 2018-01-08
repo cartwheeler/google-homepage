@@ -70,7 +70,7 @@ body {
 
 .language {
 	margin-top: 20px;
-	margin-bottom: 115px;
+	margin-bottom: 86px;
 	text-align: center;
 	font-size: 13px;
 	color: rgba(34, 34, 34);
@@ -88,7 +88,7 @@ body {
 	padding-left: 25px;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	background-color: rgba(0,0,0, .14);
+	background-color: rgba(0,0,0, .07);
 	color: rgba(0,0,0, .54);
 	margin-bottom: 0;
 }
@@ -105,7 +105,7 @@ body {
 	padding-right: 20px;
 	padding-top: 10px;
 	font-size: 13px;
-	background-color: rgba(0,0,0, .14);
+	background-color: rgba(0,0,0, .07);
 	color: rgba(0,0,0, .54);
 	border-bottom: solid;
 	border-width: 1px;
@@ -125,7 +125,7 @@ body {
 	padding-left: 20px;
 	padding-top: 10px;
 	font-size: 13px;
-	background-color: rgba(0,0,0, .14);
+	background-color: rgba(0,0,0, .07);
 	color: rgba(0,0,0, .54);
 	border-bottom: solid;
 	border-width: 1px;
@@ -135,7 +135,7 @@ body {
 
 .bottom_middle {
 	display: inline-block;
-	background-color: rgba(0,0,0, .14);
+	background-color: rgba(0,0,0, .07);
 	border-bottom: solid;
 	border-width: 1px;
 	border-color: rgba(0,0,0,.24);
@@ -144,4 +144,31 @@ body {
 	width: 722px;
 }
 
+form [type=text]{
+	border-radius: 0;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0, .24);
+	border-style: none;
+	height: 40px;
+}
 
+form [type=submit]{
+	border-radius: 0;
+	margin-top: 20px;
+	padding: 10px 15px;
+	border-style: none;
+	font-weight: bold;
+}
+
+form [type=submit]:hover{
+	color: #000;
+	border-style: solid;
+	border-color: rgba(0,0,0, .24);
+}
+
+.bottom_left a:hover {
+	text-decoration: underline;
+}
+
+.bottom_right a:hover {
+	text-decoration: underline;
+}
